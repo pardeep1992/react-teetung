@@ -1,0 +1,35 @@
+.border-custom{
+    border: 1px solid rgba(0,0,0,.0625);
+}
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.ListOrder>li {
+    border: 1px solid rgba(0,0,0,.0625);
+    display: inline-block;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.ListOrder{
+    list-style: none;
+}
+.ListOrder>li.active {
+    border-color: #0f9d58;
+    color: #0f9d58;
+    position: relative;
+    z-index: 2;
+}
+.ListOrder>li:first-child {
+    border-radius: 4px 0 0 4px;
+}
+.ListOrder>li:last-child {
+    border-radius: 0 4px 4px 0;
+}
+.react-daterange-picker__calendar{
+    z-index: 999 !important;
+}
+.react-daterange-picker__calendar-button{
+    display: none;
+}
